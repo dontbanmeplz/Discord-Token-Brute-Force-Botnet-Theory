@@ -15,6 +15,8 @@ from plyer import notification
 from flask import Flask, request
 app = Flask(__name__)
 
+# Flask Is Black
+
 todos = {}
 tok = input("ngrok authtoken if you may: ")
 @app.route('/a', methods=['POST'])
