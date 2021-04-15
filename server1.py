@@ -31,6 +31,7 @@ class MyClient(discord.Client):
     encodedstamp = str(encodedBytes, "utf-8")
     time.sleep(3)
     open("temp.txt", "w").write(encodeid)
+    exit(0)
     
             
 client = MyClient()
